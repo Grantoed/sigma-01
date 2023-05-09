@@ -207,7 +207,7 @@ img {
   background-image: linear-gradient(
       112.58deg,
       #ffffff 18.15%,
-      rgba(255, 255, 255, 0) 53.07%
+      rgba(0, 0, 0, 0.3) 53.07%
     ),
     url(../images/hero.jpg);
   background-size: contain;
@@ -223,7 +223,7 @@ img {
     background-image: linear-gradient(
         112.58deg,
         #ffffff 18.15%,
-        rgba(255, 255, 255, 0) 53.07%
+        rgba(0, 0, 0, 0.3) 53.07%
       ),
       url(../images/hero@2x.jpg);
   }
