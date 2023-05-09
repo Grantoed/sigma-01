@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Avenir";
   src: local("Avenir Black"), local("Avenir-Black"),
-    url("Avenir-Black.woff2") format("woff2"),
-    url("Avenir-Black.woff") format("woff"),
-    url("Avenir-Black.ttf") format("truetype");
+    url("../fonts/Avenir-Black/Avenir-Black.woff2") format("woff2"),
+    url("../fonts/Avenir-Black/Avenir-Black.woff") format("woff"),
+    url("../fonts/Avenir-Black/Avenir-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -11,8 +11,9 @@
 @font-face {
   font-family: "Georgia";
   src: local("Georgia Regular"), local("Georgia-Regular"),
-    url("Georgia.woff2") format("woff2"), url("Georgia.woff") format("woff"),
-    url("Georgia.ttf") format("truetype");
+    url("../fonts/Georgia/Georgia.woff2") format("woff2"),
+    url("../fonts/Georgia/Georgia.woff") format("woff"),
+    url("../fonts/Georgia/Georgia.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -20,9 +21,9 @@
 @font-face {
   font-family: "Georgia";
   src: local("Georgia Bold"), local("Georgia-Bold"),
-    url("Georgia-Bold.woff2") format("woff2"),
-    url("Georgia-Bold.woff") format("woff"),
-    url("Georgia-Bold.ttf") format("truetype");
+    url("../fonts/Georgia/Georgia-Bold.woff2") format("woff2"),
+    url("../fonts/Georgia/Georgia-Bold.woff") format("woff"),
+    url("../fonts/Georgia/Georgia-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
@@ -105,6 +106,7 @@ img {
 .steps .container {
   padding-top: 170px;
   padding-bottom: 50px;
+  padding-right: 232px;
 }
 
 .about .container {
@@ -113,6 +115,8 @@ img {
   gap: 30px;
   padding-top: 230px;
   padding-bottom: 175px;
+  padding-left: 207px;
+  padding-right: 207px;
 }
 
 .our-product .container {
